@@ -13,6 +13,8 @@
 		FA5A38141CAC0B500079A331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5A38121CAC0B500079A331 /* Main.storyboard */; };
 		FA5A38161CAC0B500079A331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5A38151CAC0B500079A331 /* Assets.xcassets */; };
 		FA5A38191CAC0B500079A331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5A38171CAC0B500079A331 /* LaunchScreen.storyboard */; };
+		FA5A38211CAC0BE80079A331 /* Penguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5A38201CAC0BE80079A331 /* Penguin.jpg */; };
+		FA5A38241CAC1CDA0079A331 /* CustomActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A38231CAC1CDA0079A331 /* CustomActivityItemProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		FA5A38151CAC0B500079A331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5A38181CAC0B500079A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5A381A1CAC0B500079A331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5A38201CAC0BE80079A331 /* Penguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Penguin.jpg; sourceTree = "<group>"; };
+		FA5A38221CAC1CDA0079A331 /* CustomActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivityItemProvider.h; sourceTree = "<group>"; };
+		FA5A38231CAC1CDA0079A331 /* CustomActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivityItemProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +71,10 @@
 				FA5A38151CAC0B500079A331 /* Assets.xcassets */,
 				FA5A38171CAC0B500079A331 /* LaunchScreen.storyboard */,
 				FA5A381A1CAC0B500079A331 /* Info.plist */,
+				FA5A38201CAC0BE80079A331 /* Penguin.jpg */,
 				FA5A38091CAC0B500079A331 /* Supporting Files */,
+				FA5A38221CAC1CDA0079A331 /* CustomActivityItemProvider.h */,
+				FA5A38231CAC1CDA0079A331 /* CustomActivityItemProvider.m */,
 			);
 			path = SocialShareExample;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 				FA5A38191CAC0B500079A331 /* LaunchScreen.storyboard in Resources */,
 				FA5A38161CAC0B500079A331 /* Assets.xcassets in Resources */,
 				FA5A38141CAC0B500079A331 /* Main.storyboard in Resources */,
+				FA5A38211CAC0BE80079A331 /* Penguin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5A38111CAC0B500079A331 /* ViewController.m in Sources */,
+				FA5A38241CAC1CDA0079A331 /* CustomActivityItemProvider.m in Sources */,
 				FA5A380E1CAC0B500079A331 /* AppDelegate.m in Sources */,
 				FA5A380B1CAC0B500079A331 /* main.m in Sources */,
 			);
@@ -265,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SocialShareExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soriAlex.SocialShareExample;
@@ -276,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SocialShareExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soriAlex.SocialShareExample;
@@ -302,6 +314,7 @@
 				FA5A381F1CAC0B500079A331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
